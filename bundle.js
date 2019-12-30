@@ -32145,10 +32145,10 @@ function (_super) {
       className: "navbar-brand"
     }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
       className: "navbar-item",
-      href: "https://himkt.github.io"
+      href: "https://himkt.github.io/profile"
     }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("img", {
       src: _img_logo_png__WEBPACK_IMPORTED_MODULE_1__["default"],
-      alt: "himkt.github.io",
+      alt: "himkt.github.io/profile",
       width: "85"
     }))), react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
       id: "navbarExampleTransparentExample",
@@ -32157,7 +32157,7 @@ function (_super) {
       className: "navbar-end"
     }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
       className: "navbar-item",
-      href: "https://himkt.github.io/"
+      href: "https://himkt.github.io/profile"
     }, "Home"), react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
       className: "navbar-item has-dropdown is-hoverable"
     }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
@@ -32186,7 +32186,7 @@ function (_super) {
       href: "https://twitter.com/hyperparams"
     }, "Twitter (en)"), react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
       className: "navbar-item is-active",
-      href: "https://himkt.github.io/resume.pdf",
+      href: "https://himkt.github.io/profile/resume.pdf",
       target: "_blank"
     }, "Resume")))))));
   };
@@ -32345,7 +32345,7 @@ function (_super) {
     }), " Qiita")), react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("span", {
       style: publication
     }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
-      href: "http://himkt.github.io/resume.pdf",
+      href: "http://himkt.github.io/profile/resume.pdf",
       target: "_brank"
     }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("i", {
       className: "fas fa-lg fa-address-card"
