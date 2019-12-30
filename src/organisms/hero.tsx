@@ -35,7 +35,7 @@ class Hero extends React.Component<any> {
                     <div className="content">
                       <span style={publication}><a href="http://note.com/himkt" target="_brank"><i className="fas fa-lg fa-blog"></i> Blog</a></span>
                       <span style={publication}><a href="http://qiita.com/klis" target="_brank"><i className="fas fa-lg fa-pen-nib"></i> Qiita</a></span>
-                      <span style={publication}><a href="http://himkt.github.io/resume.pdf" target="_brank"><i className="fas fa-lg fa-address-card"></i> Resume</a></span>
+                      <span style={publication}><a href="http://himkt.github.io/profile/resume.pdf" target="_brank"><i className="fas fa-lg fa-address-card"></i> Resume</a></span>
                     </div>
                   </div>
                 </div>
