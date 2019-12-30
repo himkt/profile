@@ -32239,6 +32239,10 @@ var __extends = undefined && undefined.__extends || function () {
 var publication = {
   marginRight: 10 + 'px'
 };
+var myhero = {
+  background: '' + 'repeating-linear-gradient(transparent 0%,transparent 25%,#a7dcff 25%,#a7dcff  37.5%), ' + 'linear-gradient(#24a5f9,#034792), ' + 'linear-gradient(90deg,transparent 0%,transparent 50%,#b4cac1 50%,#b4cad9 80%), ' + 'radial-gradient(circle, #0277BD 10%, #0277BD 70%)',
+  backgroundBlendMode: 'screen'
+};
 
 var Hero =
 /** @class */
@@ -32251,7 +32255,8 @@ function (_super) {
 
   Hero.prototype.render = function () {
     return react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("section", {
-      className: "myhero hero is-primary is-medium is-bold"
+      className: "myhero hero is-primary is-medium is-bold",
+      style: myhero
     }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
       className: "hero-body"
     }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
