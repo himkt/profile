@@ -13,3 +13,6 @@ jobs:
       ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
     steps:
       - run: sudo apt update -y && sudo apt install git yarn nodejs
+      - run: yarn install
+      - run: yarn build
+      - run: yarn deploy
