@@ -19,13 +19,14 @@ class Header extends React.Component<any> {
                 <a className="navbar-link">Links</a>
                 <div className="navbar-dropdown is-boxed is-right">
                   <a className="navbar-item" href="https://twitter.com/himkt">Twitter</a>
+                  <a className="navbar-item" href="https://twitter.com/hyperparams">Twitter (en)</a>
                   <a className="navbar-item" href="https://github.com/himkt">GitHub</a>
                   <a className="navbar-item" href="https://note.com/himkt">Note</a>
                   <a className="navbar-item" href="https://qiita.com/klis">Qiita</a>
                   <a className="navbar-item" href="https://instagram.com/himamako">Instagram</a>
                   <hr className="navbar-divider" />
-                  <a className="navbar-item" href="https://twitter.com/hyperparams">Twitter (en)</a>
                   <a className="navbar-item is-active" href="https://himkt.github.io/profile/resume.pdf" target="_blank">Resume</a>
+                  <a className="navbar-item is-active" href="https://himkt.github.io/interest">Interest</a>
                 </div>
               </div>
             </div>
@@ -37,3 +38,4 @@ class Header extends React.Component<any> {
 }
 
 export default Header;
+

@@ -39,12 +39,13 @@ class Hero extends React.Component<any> {
                       <span style={publication}><a href="https://speakerdeck.com/himkt" target="_brank"><i className="fab fa-lg fa-speaker-deck"></i></a></span>
                       <span style={publication}><a href="https://www.instagram.com/himamako/" target="_brank"><i className="fab fa-lg fa-instagram"></i></a></span>
                       <span style={publication}><a href="http://facebook.com/makoto.hiramatsu.001" target="_brank"><i className="fab fa-lg fa-facebook"></i></a></span>
+                      <span style={publication}><a href="http://note.com/himkt" target="_brank"><i className="fas fa-lg fa-blog"></i></a></span>
+                      <span style={publication}><a href="http://qiita.com/klis" target="_brank"><i className="fas fa-lg fa-pen-nib"></i></a></span>
                     </div>
                     <p className="title is-5" style={{color: 'hsl(0, 0%, 29%)'}}>Links:</p>
                     <div className="content">
-                      <span style={publication}><a href="http://note.com/himkt" target="_brank"><i className="fas fa-lg fa-blog"></i> Blog</a></span>
-                      <span style={publication}><a href="http://qiita.com/klis" target="_brank"><i className="fas fa-lg fa-pen-nib"></i> Qiita</a></span>
                       <span style={publication}><a href="http://himkt.github.io/profile/resume.pdf" target="_brank"><i className="fas fa-lg fa-address-card"></i> Resume</a></span>
+                      <span style={publication}><a href="http://himkt.github.io/interest" target="_brank"><i className="fas fa-lg fa-paperclip"></i> Interest</a></span>
                     </div>
                   </div>
                 </div>
