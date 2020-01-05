@@ -32169,6 +32169,9 @@ function (_super) {
       href: "https://twitter.com/himkt"
     }, "Twitter"), react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
       className: "navbar-item",
+      href: "https://twitter.com/hyperparams"
+    }, "Twitter (en)"), react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
+      className: "navbar-item",
       href: "https://github.com/himkt"
     }, "GitHub"), react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
       className: "navbar-item",
@@ -32182,13 +32185,13 @@ function (_super) {
     }, "Instagram"), react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("hr", {
       className: "navbar-divider"
     }), react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
-      className: "navbar-item",
-      href: "https://twitter.com/hyperparams"
-    }, "Twitter (en)"), react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
       className: "navbar-item is-active",
       href: "https://himkt.github.io/profile/resume.pdf",
       target: "_blank"
-    }, "Resume")))))));
+    }, "Resume"), react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
+      className: "navbar-item is-active",
+      href: "https://himkt.github.io/interest"
+    }, "Interest")))))));
   };
 
   return Header;
@@ -32326,6 +32329,20 @@ function (_super) {
       target: "_brank"
     }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("i", {
       className: "fab fa-lg fa-facebook"
+    }))), react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("span", {
+      style: publication
+    }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
+      href: "http://note.com/himkt",
+      target: "_brank"
+    }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("i", {
+      className: "fas fa-lg fa-blog"
+    }))), react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("span", {
+      style: publication
+    }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
+      href: "http://qiita.com/klis",
+      target: "_brank"
+    }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("i", {
+      className: "fas fa-lg fa-pen-nib"
     })))), react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("p", {
       className: "title is-5",
       style: {
@@ -32336,25 +32353,18 @@ function (_super) {
     }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("span", {
       style: publication
     }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
-      href: "http://note.com/himkt",
-      target: "_brank"
-    }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("i", {
-      className: "fas fa-lg fa-blog"
-    }), " Blog")), react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("span", {
-      style: publication
-    }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
-      href: "http://qiita.com/klis",
-      target: "_brank"
-    }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("i", {
-      className: "fas fa-lg fa-pen-nib"
-    }), " Qiita")), react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("span", {
-      style: publication
-    }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
       href: "http://himkt.github.io/profile/resume.pdf",
       target: "_brank"
     }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("i", {
       className: "fas fa-lg fa-address-card"
-    }), " Resume")))))), react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
+    }), " Resume")), react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("span", {
+      style: publication
+    }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
+      href: "http://himkt.github.io/interest",
+      target: "_brank"
+    }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("i", {
+      className: "fas fa-lg fa-paperclip"
+    }), " Interest")))))), react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
       className: "column"
     })))));
   };
