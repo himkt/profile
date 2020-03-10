@@ -29,7 +29,8 @@ class Hero extends React.Component<any> {
                     <p className="card-header-title">Makoto Hiramatsu</p>
                   </header>
                   <div className="card-content kokokara">
-                    <div className="content">Research Engineer at Cookpad.</div>
+                    <div className="content">Research Engineer at Cookpad. I received the bachelor's degree in library and information science and 
+                    the master's degree in informatics from University of Tsukuba (2017 and 2019, respectively).</div>
                     <p className="title is-5" style={{color: 'hsl(0, 0%, 29%)'}}>Research Topics:</p>
                     <div className="content">Natural Language Processing, Machine Learning</div>
                     <p className="title is-5" style={{color: 'hsl(0, 0%, 29%)'}}>Social Accounts:</p>
