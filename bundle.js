@@ -32280,7 +32280,7 @@ function (_super) {
       className: "card-content kokokara"
     }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
       className: "content"
-    }, "Research Engineer at Cookpad."), react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("p", {
+    }, "Research Engineer at Cookpad. I received the bachelor's degree in library and information science and the master's degree in informatics from University of Tsukuba (2017 and 2019, respectively)."), react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("p", {
       className: "title is-5",
       style: {
         color: 'hsl(0, 0%, 29%)'
