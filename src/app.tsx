@@ -12,7 +12,7 @@ export interface Props {
 
 const publications = [
   <p>Jun Harashima, <strong>Makoto Hiramatsu</strong>. <strong>Cookpad Parsed Corpus: Linguistic Annotations of Japanese Recipes</strong>. In Proceedings of Linguistic Annotation Workshop, 2020 (to appear).</p>,
-  <p>Yasuhiro Yamaguchi, Jun Harashima, Shintaro Inuzuka, <strong>Makoto Hiramatsu</strong>, Jun Harashima. <strong>Non-ingredient Detection in User-generated Recipes using the Sequence Tagging Approach</strong>. In Proceedings of Workshop on Noisy User-generated Text, 2020 (to appear).</p>,
+  <p>Yasuhiro Yamaguchi, Shintaro Inuzuka, <strong>Makoto Hiramatsu</strong>, Jun Harashima. <strong>Non-ingredient Detection in User-generated Recipes using the Sequence Tagging Approach</strong>. In Proceedings of Workshop on Noisy User-generated Text, 2020 (to appear).</p>,
   <p>Jun Harashima, <strong>Makoto Hiramatsu</strong> and Satoshi Sanjo.<strong>Calorie Estimation in a Real-World Recipe Service</strong>.In Proceedings of Annual Conference on Innovative Applications of Artificial Intelligence, 2020</p>,
   <p>若林啓, 竹内誉羽, <strong>平松淳</strong> and 中野幹生.<strong>言語モデルによる文の最適分割に基づく音声言語理解</strong>.人工知能学会全国大会, 2019.</p>,
   <p><strong>Makoto Hiramatsu</strong>, Kei Wakabayashi and Jun Harashima.<strong>Named entity recognition by character-based word classification using a domain specific dictionary</strong>.In Proceedings of International Conference on Computational Linguistics and Intelligent Text Processing, 2019.</p>,
