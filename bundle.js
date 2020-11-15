@@ -28628,7 +28628,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _organisms_header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./organisms/header */ "./src/organisms/header.tsx");
 /* harmony import */ var _organisms_hero__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./organisms/hero */ "./src/organisms/hero.tsx");
 /* harmony import */ var _organisms_footer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./organisms/footer */ "./src/organisms/footer.tsx");
-/* harmony import */ var _templates_publication__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./templates/publication */ "./src/templates/publication.tsx");
+/* harmony import */ var _templates_list__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./templates/list */ "./src/templates/list.tsx");
 var __extends = undefined && undefined.__extends || function () {
   var _extendStatics = function extendStatics(d, b) {
     _extendStatics = Object.setPrototypeOf || {
@@ -28672,8 +28672,9 @@ function (_super) {
   }
 
   App.prototype.render = function () {
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_organisms_header__WEBPACK_IMPORTED_MODULE_1__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_organisms_hero__WEBPACK_IMPORTED_MODULE_2__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_templates_publication__WEBPACK_IMPORTED_MODULE_4__["default"], {
-      papers: publications
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_organisms_header__WEBPACK_IMPORTED_MODULE_1__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_organisms_hero__WEBPACK_IMPORTED_MODULE_2__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_templates_list__WEBPACK_IMPORTED_MODULE_4__["default"], {
+      title: 'Publication',
+      items: publications
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_organisms_footer__WEBPACK_IMPORTED_MODULE_3__["default"], null));
   };
 
@@ -29065,10 +29066,10 @@ function (_super) {
 
 /***/ }),
 
-/***/ "./src/templates/publication.tsx":
-/*!***************************************!*\
-  !*** ./src/templates/publication.tsx ***!
-  \***************************************/
+/***/ "./src/templates/list.tsx":
+/*!********************************!*\
+  !*** ./src/templates/list.tsx ***!
+  \********************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -29104,24 +29105,24 @@ var __extends = undefined && undefined.__extends || function () {
 
 
 
-var Publication =
+var List =
 /** @class */
 function (_super) {
-  __extends(Publication, _super);
+  __extends(List, _super);
 
-  function Publication() {
+  function List() {
     return _super !== null && _super.apply(this, arguments) || this;
   }
 
-  Publication.prototype.render = function () {
+  List.prototype.render = function () {
     var key = 1;
-    var publications = [];
+    var items = [];
 
-    for (var _i = 0, _a = this.props.papers; _i < _a.length; _i++) {
-      var paper = _a[_i];
-      publications.push( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("li", {
+    for (var _i = 0, _a = this.props.items; _i < _a.length; _i++) {
+      var item = _a[_i];
+      items.push( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("li", {
         key: key
-      }, paper));
+      }, item));
       key++;
     }
 
@@ -29146,15 +29147,15 @@ function (_super) {
       }
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("h1", {
       className: "title is-2"
-    }, "Publication"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("ol", null, publications))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
+    }, this.props.title), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("ol", null, items))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
       className: "column"
     }))));
   };
 
-  return Publication;
+  return List;
 }(react__WEBPACK_IMPORTED_MODULE_0__["Component"]);
 
-/* harmony default export */ __webpack_exports__["default"] = (Publication);
+/* harmony default export */ __webpack_exports__["default"] = (List);
 
 /***/ })
 
