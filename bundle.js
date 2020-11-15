@@ -347,7 +347,7 @@ module.exports = ReactPropTypesSecret;
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/** @license React v16.13.1
+/** @license React v16.14.0
  * react-dom.development.js
  *
  * Copyright (c) Facebook, Inc. and its affiliates.
@@ -24917,7 +24917,7 @@ function injectIntoDevTools(devToolsConfig) {
     // Enables DevTools to append owner stacks to error messages in DEV mode.
     getCurrentFiber:  function () {
       return current;
-    } 
+    }
   }));
 }
 var IsSomeRendererActing$1 = ReactSharedInternals.IsSomeRendererActing;
@@ -25269,7 +25269,7 @@ implementation) {
   };
 }
 
-var ReactVersion = '16.13.1';
+var ReactVersion = '16.14.0';
 
 setAttemptUserBlockingHydration(attemptUserBlockingHydration$1);
 setAttemptContinuousHydration(attemptContinuousHydration$1);
@@ -25416,7 +25416,7 @@ if (false) {} else {
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/** @license React v16.13.1
+/** @license React v16.14.0
  * react.development.js
  *
  * Copyright (c) Facebook, Inc. and its affiliates.
@@ -25436,7 +25436,7 @@ if (true) {
 var _assign = __webpack_require__(/*! object-assign */ "./node_modules/object-assign/index.js");
 var checkPropTypes = __webpack_require__(/*! prop-types/checkPropTypes */ "./node_modules/prop-types/checkPropTypes.js");
 
-var ReactVersion = '16.13.1';
+var ReactVersion = '16.14.0';
 
 // The Symbol used to tag the ReactElement-like types. If there is no native Symbol
 // nor polyfill, then a plain number is used for performance.
@@ -28660,7 +28660,7 @@ var __extends = undefined && undefined.__extends || function () {
 
 
 
-var publications = [react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("p", null, "Jun Harashima, ", react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("strong", null, "Makoto Hiramatsu"), ". ", react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("strong", null, "Cookpad Parsed Corpus: Linguistic Annotations of Japanese Recipes"), ". In Proceedings of Linguistic Annotation Workshop, 2020 (to appear)."), react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("p", null, "Yasuhiro Yamaguchi, Shintaro Inuzuka, ", react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("strong", null, "Makoto Hiramatsu"), ", Jun Harashima. ", react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("strong", null, "Non-ingredient Detection in User-generated Recipes using the Sequence Tagging Approach"), ". In Proceedings of Workshop on Noisy User-generated Text, 2020 (to appear)."), react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("p", null, "Jun Harashima, ", react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("strong", null, "Makoto Hiramatsu"), " and Satoshi Sanjo.", react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("strong", null, "Calorie Estimation in a Real-World Recipe Service"), ".In Proceedings of Annual Conference on Innovative Applications of Artificial Intelligence, 2020"), react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("p", null, "\u82E5\u6797\u5553, \u7AF9\u5185\u8A89\u7FBD, ", react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("strong", null, "\u5E73\u677E\u6DF3"), " and \u4E2D\u91CE\u5E79\u751F.", react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("strong", null, "\u8A00\u8A9E\u30E2\u30C7\u30EB\u306B\u3088\u308B\u6587\u306E\u6700\u9069\u5206\u5272\u306B\u57FA\u3065\u304F\u97F3\u58F0\u8A00\u8A9E\u7406\u89E3"), ".\u4EBA\u5DE5\u77E5\u80FD\u5B66\u4F1A\u5168\u56FD\u5927\u4F1A, 2019."), react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("p", null, react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("strong", null, "Makoto Hiramatsu"), ", Kei Wakabayashi and Jun Harashima.", react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("strong", null, "Named entity recognition by character-based word classification using a domain specific dictionary"), ".In Proceedings of International Conference on Computational Linguistics and Intelligent Text Processing, 2019."), react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("p", null, react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("strong", null, "\u5E73\u677E\u6DF3"), ", \u82E5\u6797\u5553 and \u539F\u5CF6\u7D14.", react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("strong", null, "\u6587\u5B57\u5206\u6563\u8868\u73FE\u306B\u57FA\u3065\u304F\u5358\u8A9E\u5206\u985E\u60C5\u5831\u3092\u7528\u3044\u305F\u30EC\u30B7\u30D4\u56FA\u6709\u8868\u73FE\u62BD\u51FA"), ".\u81EA\u7136\u8A00\u8A9E\u51E6\u7406\u7814\u7A76\u4F1A, 2018."), react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("p", null, react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("strong", null, "Makoto Hiramatsu"), " and Kei Wakabayashi.", react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("strong", null, "Encoder-decoder neural networks for taxonomy classification"), ".In Proceedings of Workshop on SIGIR 2018 eCom Data Challenge, 2018."), react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("p", null, react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("strong", null, "\u5E73\u677E\u6DF3"), " and \u82E5\u6797\u5553.", react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("strong", null, "\u7CFB\u5217\u30E9\u30D9\u30EA\u30F3\u30B0\u306B\u3088\u308B\u81EA\u7136\u8A00\u8A9E\u6587\u304B\u3089\u306E\u4E0A\u4F4D\u4E0B\u4F4D\u95A2\u4FC2\u81EA\u52D5\u62BD\u51FA"), ".\u8A00\u8A9E\u51E6\u7406\u5B66\u4F1A\u5E74\u6B21\u5927\u4F1A, 2017."), react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("p", null, react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("strong", null, "\u5E73\u677E\u6DF3"), ", \u5C71\u672C\u4FEE\u5E73, \u4F0F\u898B\u5353\u606D and \u4F50\u85E4\u54F2\u53F8.", react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("strong", null, "\u30EC\u30B7\u30D4\u30B3\u30DF\u30E5\u30CB\u30C6\u30A3\u306B\u304A\u3051\u308B\u6295\u7A3F\u50BE\u5411\u306E\u5206\u6790"), ".\u96FB\u5B50\u60C5\u5831\u901A\u4FE1\u5B66\u4F1A\u6280\u8853\u7814\u7A76\u5831\u544A, 2016.")];
+var publications = [/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("p", null, "Jun Harashima, ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("strong", null, "Makoto Hiramatsu"), ". ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("strong", null, "Cookpad Parsed Corpus: Linguistic Annotations of Japanese Recipes"), ". In Proceedings of Linguistic Annotation Workshop, 2020 (to appear)."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("p", null, "Yasuhiro Yamaguchi, Shintaro Inuzuka, ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("strong", null, "Makoto Hiramatsu"), ", Jun Harashima. ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("strong", null, "Non-ingredient Detection in User-generated Recipes using the Sequence Tagging Approach"), ". In Proceedings of Workshop on Noisy User-generated Text, 2020 (to appear)."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("p", null, "Jun Harashima, ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("strong", null, "Makoto Hiramatsu"), " and Satoshi Sanjo.", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("strong", null, "Calorie Estimation in a Real-World Recipe Service"), ".In Proceedings of Annual Conference on Innovative Applications of Artificial Intelligence, 2020"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("p", null, "\u82E5\u6797\u5553, \u7AF9\u5185\u8A89\u7FBD, ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("strong", null, "\u5E73\u677E\u6DF3"), " and \u4E2D\u91CE\u5E79\u751F.", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("strong", null, "\u8A00\u8A9E\u30E2\u30C7\u30EB\u306B\u3088\u308B\u6587\u306E\u6700\u9069\u5206\u5272\u306B\u57FA\u3065\u304F\u97F3\u58F0\u8A00\u8A9E\u7406\u89E3"), ".\u4EBA\u5DE5\u77E5\u80FD\u5B66\u4F1A\u5168\u56FD\u5927\u4F1A, 2019."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("strong", null, "Makoto Hiramatsu"), ", Kei Wakabayashi and Jun Harashima.", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("strong", null, "Named entity recognition by character-based word classification using a domain specific dictionary"), ".In Proceedings of International Conference on Computational Linguistics and Intelligent Text Processing, 2019."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("strong", null, "\u5E73\u677E\u6DF3"), ", \u82E5\u6797\u5553 and \u539F\u5CF6\u7D14.", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("strong", null, "\u6587\u5B57\u5206\u6563\u8868\u73FE\u306B\u57FA\u3065\u304F\u5358\u8A9E\u5206\u985E\u60C5\u5831\u3092\u7528\u3044\u305F\u30EC\u30B7\u30D4\u56FA\u6709\u8868\u73FE\u62BD\u51FA"), ".\u81EA\u7136\u8A00\u8A9E\u51E6\u7406\u7814\u7A76\u4F1A, 2018."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("strong", null, "Makoto Hiramatsu"), " and Kei Wakabayashi.", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("strong", null, "Encoder-decoder neural networks for taxonomy classification"), ".In Proceedings of Workshop on SIGIR 2018 eCom Data Challenge, 2018."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("strong", null, "\u5E73\u677E\u6DF3"), " and \u82E5\u6797\u5553.", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("strong", null, "\u7CFB\u5217\u30E9\u30D9\u30EA\u30F3\u30B0\u306B\u3088\u308B\u81EA\u7136\u8A00\u8A9E\u6587\u304B\u3089\u306E\u4E0A\u4F4D\u4E0B\u4F4D\u95A2\u4FC2\u81EA\u52D5\u62BD\u51FA"), ".\u8A00\u8A9E\u51E6\u7406\u5B66\u4F1A\u5E74\u6B21\u5927\u4F1A, 2017."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("strong", null, "\u5E73\u677E\u6DF3"), ", \u5C71\u672C\u4FEE\u5E73, \u4F0F\u898B\u5353\u606D and \u4F50\u85E4\u54F2\u53F8.", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("strong", null, "\u30EC\u30B7\u30D4\u30B3\u30DF\u30E5\u30CB\u30C6\u30A3\u306B\u304A\u3051\u308B\u6295\u7A3F\u50BE\u5411\u306E\u5206\u6790"), ".\u96FB\u5B50\u60C5\u5831\u901A\u4FE1\u5B66\u4F1A\u6280\u8853\u7814\u7A76\u5831\u544A, 2016.")];
 
 var App =
 /** @class */
@@ -28672,9 +28672,9 @@ function (_super) {
   }
 
   App.prototype.render = function () {
-    return react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", null, react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_organisms_header__WEBPACK_IMPORTED_MODULE_1__["default"], null), react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_organisms_hero__WEBPACK_IMPORTED_MODULE_2__["default"], null), react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_templates_publication__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_organisms_header__WEBPACK_IMPORTED_MODULE_1__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_organisms_hero__WEBPACK_IMPORTED_MODULE_2__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_templates_publication__WEBPACK_IMPORTED_MODULE_4__["default"], {
       papers: publications
-    }), react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_organisms_footer__WEBPACK_IMPORTED_MODULE_3__["default"], null));
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_organisms_footer__WEBPACK_IMPORTED_MODULE_3__["default"], null));
   };
 
   return App;
@@ -28701,7 +28701,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-react_dom__WEBPACK_IMPORTED_MODULE_1__["render"](react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_app__WEBPACK_IMPORTED_MODULE_2__["default"], {
+react_dom__WEBPACK_IMPORTED_MODULE_1__["render"]( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_app__WEBPACK_IMPORTED_MODULE_2__["default"], {
   content: "himkt.github.io"
 }), document.getElementById("app"));
 
@@ -28756,14 +28756,14 @@ function (_super) {
   }
 
   Footer.prototype.render = function () {
-    return react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("footer", {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("footer", {
       className: "footer",
       style: {
         backgroundColor: 'hsl(0, 0%, 95%)'
       }
-    }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
       className: "content has-text-centered"
-    }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("p", null, react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("strong", null, "himkt.github.io"), " by ", react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("strong", null, "himkt.github.io"), " by ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
       href: "https://twitter.com/himkt"
     }, "himkt"), ". 2017-2019")));
   };
@@ -28826,58 +28826,58 @@ function (_super) {
   }
 
   Header.prototype.render = function () {
-    return react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("nav", {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("nav", {
       className: "navbar is-transparent"
-    }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
       className: "container"
-    }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
       className: "navbar-brand"
-    }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
       className: "navbar-item",
       href: "https://himkt.github.io/profile"
-    }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("img", {
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("img", {
       src: _img_logo_png__WEBPACK_IMPORTED_MODULE_1__["default"],
       alt: "himkt.github.io/profile",
       width: "93"
-    }))), react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
+    }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
       id: "navbarExampleTransparentExample",
       className: "navbar-menu"
-    }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
       className: "navbar-end"
-    }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
       className: "navbar-item",
       href: "https://himkt.github.io/profile"
-    }, "Home"), react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
+    }, "Home"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
       className: "navbar-item has-dropdown is-hoverable"
-    }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
       className: "navbar-link"
-    }, "Links"), react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
+    }, "Links"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
       className: "navbar-dropdown is-boxed is-right"
-    }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
       className: "navbar-item",
       href: "https://twitter.com/himkt"
-    }, "Twitter"), react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
+    }, "Twitter"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
       className: "navbar-item",
       href: "https://twitter.com/hyperparams"
-    }, "Twitter (en)"), react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
+    }, "Twitter (en)"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
       className: "navbar-item",
       href: "https://github.com/himkt"
-    }, "GitHub"), react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
+    }, "GitHub"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
       className: "navbar-item",
       href: "https://note.com/himkt"
-    }, "Note"), react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
+    }, "Note"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
       className: "navbar-item",
       href: "https://qiita.com/klis"
-    }, "Qiita"), react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
+    }, "Qiita"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
       className: "navbar-item",
       href: "https://instagram.com/himamako"
-    }, "Instagram"), react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("hr", {
+    }, "Instagram"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("hr", {
       className: "navbar-divider"
-    }), react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
       className: "navbar-item is-active",
       href: "https://himkt.github.io/profile/resume.pdf",
       target: "_blank"
-    }, "Resume"), react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
+    }, "Resume"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
       className: "navbar-item is-active",
       href: "https://himkt.github.io/interest"
     }, "Interest")))))));
@@ -28946,114 +28946,114 @@ function (_super) {
   }
 
   Hero.prototype.render = function () {
-    return react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("section", {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("section", {
       className: "myhero hero is-primary is-medium is-bold",
       style: myhero
-    }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
       className: "hero-body"
-    }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
       className: "container"
-    }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
       className: "columns"
-    }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
       className: "column"
-    }), react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
       className: "column is-6"
-    }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
       className: "card"
-    }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("header", {
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("header", {
       className: "card-header"
-    }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("p", {
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("p", {
       className: "card-header-title"
-    }, "Makoto Hiramatsu")), react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
+    }, "Makoto Hiramatsu")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
       className: "card-content kokokara"
-    }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
       className: "content"
-    }, "Research Engineer at Cookpad. I received the bachelor's degree in library and information science and the master's degree in informatics from University of Tsukuba (2017 and 2019, respectively)."), react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("p", {
+    }, "Research Engineer at Cookpad. I received the bachelor's degree in library and information science and the master's degree in informatics from University of Tsukuba (2017 and 2019, respectively)."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("p", {
       className: "title is-5",
       style: {
         color: 'hsl(0, 0%, 29%)'
       }
-    }, "Research Topics:"), react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
+    }, "Research Topics:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
       className: "content"
-    }, "Natural Language Processing, Machine Learning"), react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("p", {
+    }, "Natural Language Processing, Machine Learning"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("p", {
       className: "title is-5",
       style: {
         color: 'hsl(0, 0%, 29%)'
       }
-    }, "Social Accounts:"), react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
+    }, "Social Accounts:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
       className: "content"
-    }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("span", {
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("span", {
       style: publication
-    }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
       href: "https://twitter.com/himkt",
       target: "_brank"
-    }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("i", {
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("i", {
       className: "fab fa-lg fa-twitter"
-    }))), react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("span", {
+    }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("span", {
       style: publication
-    }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
       href: "https://github.com/himkt",
       target: "_brank"
-    }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("i", {
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("i", {
       className: "fab fa-lg fa-github"
-    }))), react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("span", {
+    }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("span", {
       style: publication
-    }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
       href: "https://speakerdeck.com/himkt",
       target: "_brank"
-    }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("i", {
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("i", {
       className: "fab fa-lg fa-speaker-deck"
-    }))), react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("span", {
+    }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("span", {
       style: publication
-    }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
       href: "https://www.instagram.com/himamako/",
       target: "_brank"
-    }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("i", {
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("i", {
       className: "fab fa-lg fa-instagram"
-    }))), react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("span", {
+    }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("span", {
       style: publication
-    }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
       href: "http://facebook.com/makoto.hiramatsu.001",
       target: "_brank"
-    }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("i", {
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("i", {
       className: "fab fa-lg fa-facebook"
-    }))), react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("span", {
+    }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("span", {
       style: publication
-    }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
       href: "http://note.com/himkt",
       target: "_brank"
-    }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("i", {
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("i", {
       className: "fas fa-lg fa-blog"
-    }))), react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("span", {
+    }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("span", {
       style: publication
-    }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
       href: "http://qiita.com/klis",
       target: "_brank"
-    }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("i", {
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("i", {
       className: "fas fa-lg fa-pen-nib"
-    })))), react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("p", {
+    })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("p", {
       className: "title is-5",
       style: {
         color: 'hsl(0, 0%, 29%)'
       }
-    }, "Links:"), react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
+    }, "Links:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
       className: "content"
-    }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("span", {
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("span", {
       style: publication
-    }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
       href: "http://himkt.github.io/profile/resume.pdf",
       target: "_brank"
-    }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("i", {
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("i", {
       className: "fas fa-lg fa-address-card"
-    }), " Resume")), react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("span", {
+    }), " Resume")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("span", {
       style: publication
-    }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
       href: "http://himkt.github.io/interest",
       target: "_brank"
-    }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("i", {
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("i", {
       className: "fas fa-lg fa-paperclip"
-    }), " Interest")))))), react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
+    }), " Interest")))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
       className: "column"
     })))));
   };
@@ -29119,34 +29119,34 @@ function (_super) {
 
     for (var _i = 0, _a = this.props.papers; _i < _a.length; _i++) {
       var paper = _a[_i];
-      publications.push(react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("li", {
+      publications.push( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("li", {
         key: key
       }, paper));
       key++;
     }
 
-    return react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("section", {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("section", {
       style: {
         padding: 3 + 'rem'
       }
-    }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
       className: "container"
-    }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
       className: "columns"
-    }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
       className: "column"
-    }), react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
       className: "column is-8 is-centered"
-    }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
       className: "content"
-    }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("hr", {
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("hr", {
       className: "hr",
       style: {
         marginBottom: 0
       }
-    }), react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("h1", {
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("h1", {
       className: "title is-2"
-    }, "Publication"), react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("ol", null, publications))), react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
+    }, "Publication"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("ol", null, publications))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
       className: "column"
     }))));
   };
