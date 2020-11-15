@@ -2,7 +2,7 @@ import * as React from 'react';
 import Header from './organisms/header';
 import Hero from './organisms/hero';
 import Footer from './organisms/footer';
-import Publication from './templates/publication';
+import List from './templates/list';
 
 
 export interface Props {
@@ -29,7 +29,7 @@ class App extends React.Component<Props, {}> {
           <div>
             <Header />
             <Hero />
-            <Publication papers={publications} />
+            <List title='Publication' items={publications} />
             <Footer />
           </div>
         )

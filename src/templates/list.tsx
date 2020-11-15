@@ -2,17 +2,18 @@ import * as React from 'react';
 
 
 export interface Props {
-  papers: Array<any>;
+  title: string;
+  items: Array<JSX.Element>;
 }
 
 
-class Publication extends React.Component<Props, any> {
+class List extends React.Component<Props, {}> {
 
   render () {
     var key = 1;
-    const publications = [];
-    for (const paper of this.props.papers) {
-      publications.push(<li key={key}>{paper}</li>);
+    const items = [];
+    for (const item of this.props.items) {
+      items.push(<li key={key}>{item}</li>);
       key++;
     }
 
@@ -24,8 +25,8 @@ class Publication extends React.Component<Props, any> {
             <div className="column is-8 is-centered">
               <div className="content">
                 <hr className="hr" style={{marginBottom: 0}} />
-                <h1 className="title is-2">Publication</h1>
-                <ol>{publications}</ol>
+                <h1 className="title is-2">{this.props.title}</h1>
+                <ol>{items}</ol>
               </div>
             </div>
             <div className="column"></div>
@@ -36,4 +37,4 @@ class Publication extends React.Component<Props, any> {
   }
 }
 
-export default Publication;
+export default List;
