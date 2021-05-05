@@ -29,19 +29,21 @@ class Hero extends React.Component<any> {
                     <p className="card-header-title">Makoto Hiramatsu</p>
                   </header>
                   <div className="card-content kokokara">
-                    <div className="content">Research Engineer at Cookpad. I received the bachelor's degree in library and information science and 
+                    <div className="content">Research Engineer at Cookpad. I received the bachelor's degree in library and information science and
                     the master's degree in informatics from University of Tsukuba (2017 and 2019, respectively).</div>
                     <p className="title is-5" style={{color: 'hsl(0, 0%, 29%)'}}>Research Topics:</p>
                     <div className="content">Natural Language Processing, Machine Learning</div>
                     <p className="title is-5" style={{color: 'hsl(0, 0%, 29%)'}}>Social Accounts:</p>
                     <div className="content">
                       <span style={publication}><a href="https://twitter.com/himkt" target="_brank"><i className="fab fa-lg fa-twitter"></i></a></span>
+                      <span style={publication}><a href="https://www.instagram.com/himamako/" target="_brank"><i className="fab fa-lg fa-instagram"></i></a></span>
                       <span style={publication}><a href="https://github.com/himkt" target="_brank"><i className="fab fa-lg fa-github"></i></a></span>
                       <span style={publication}><a href="https://speakerdeck.com/himkt" target="_brank"><i className="fab fa-lg fa-speaker-deck"></i></a></span>
-                      <span style={publication}><a href="https://www.instagram.com/himamako/" target="_brank"><i className="fab fa-lg fa-instagram"></i></a></span>
+                      <span style={publication}><a href="https://himkt.medium.com" target="_brank"><i className="fab fa-lg fa-medium"></i></a></span>
+                      <span style={publication}><a href="http://qiita.com/klis" target="_brank"><i className="fas fa-lg fa-blog"></i></a></span>
+                      <span style={publication}><a href="http://note.com/himkt" target="_brank"><i className="fas fa-lg fa-sticky-note"></i></a></span>
+                      <span style={publication}><a href="https://scholar.google.com/citations?user=48jLQIwAAAAJ&hl=en&oi=ao" target="_brank"><i className="fas fa-lg fa-graduation-cap"></i></a></span>
                       <span style={publication}><a href="http://facebook.com/makoto.hiramatsu.001" target="_brank"><i className="fab fa-lg fa-facebook"></i></a></span>
-                      <span style={publication}><a href="http://note.com/himkt" target="_brank"><i className="fas fa-lg fa-blog"></i></a></span>
-                      <span style={publication}><a href="http://qiita.com/klis" target="_brank"><i className="fas fa-lg fa-pen-nib"></i></a></span>
                     </div>
                     <p className="title is-5" style={{color: 'hsl(0, 0%, 29%)'}}>Links:</p>
                     <div className="content">

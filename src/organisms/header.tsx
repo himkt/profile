@@ -23,6 +23,7 @@ class Header extends React.Component<any> {
                   <a className="navbar-item" href="https://github.com/himkt">GitHub</a>
                   <a className="navbar-item" href="https://note.com/himkt">Note</a>
                   <a className="navbar-item" href="https://qiita.com/klis">Qiita</a>
+                  <a className="navbar-item" href="https://himkt.medium.com">Medium</a>
                   <a className="navbar-item" href="https://instagram.com/himamako">Instagram</a>
                   <hr className="navbar-divider" />
                   <a className="navbar-item is-active" href="https://himkt.github.io/profile/resume.pdf" target="_blank">Resume</a>
